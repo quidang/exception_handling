@@ -1,0 +1,16 @@
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\bin\Debug\net5.0\ExceptionTask.exe
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\bin\Debug\net5.0\ExceptionTask.deps.json
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\bin\Debug\net5.0\ExceptionTask.runtimeconfig.json
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\bin\Debug\net5.0\ExceptionTask.runtimeconfig.dev.json
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\bin\Debug\net5.0\ExceptionTask.dll
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\bin\Debug\net5.0\ref\ExceptionTask.dll
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\bin\Debug\net5.0\ExceptionTask.pdb
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\obj\Debug\net5.0\ExceptionTask.csprojAssemblyReference.cache
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\obj\Debug\net5.0\ExceptionTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\obj\Debug\net5.0\ExceptionTask.AssemblyInfoInputs.cache
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\obj\Debug\net5.0\ExceptionTask.AssemblyInfo.cs
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\obj\Debug\net5.0\ExceptionTask.csproj.CoreCompileInputs.cache
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\obj\Debug\net5.0\ExceptionTask.dll
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\obj\Debug\net5.0\ref\ExceptionTask.dll
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\obj\Debug\net5.0\ExceptionTask.pdb
+C:\Users\quida\OneDrive\SwinburneContent\Semester 2 CIV\Service Layer Programming\Week 1\ExceptionTask\obj\Debug\net5.0\ExceptionTask.genruntimeconfig.cache
