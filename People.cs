@@ -2,21 +2,19 @@ using System;
 
 namespace ExceptionTask
 {
-    public class User_One
-    {   
-        public string Name {get; set;}
-        public string RoomNum {get; set;}
-        public string TimeStayed {get; set;}
-        public string DateTime = Console.ReadLine();
-    }
-    public class UserTwo
+    public class EnteringRoom
     {
-        public string FirstName;
-        public string LastName; 
-        public string RoomNum; 
-        public int DateEntered;
-        public int TimeStayed;
-    }
+        public string roomNumber; 
+        public string fullName;
+        public DateTime dateEntered;
+        public TimeSpan timestayed; 
 
-    
+        public EnteringRoom (string roomNumber, string fullName, DateTime dateEntered, TimeSpan timeStayed) 
+        {
+            this.roomNumber = roomNumber;
+            this.fullName = fullName; 
+            this.dateEntered = dateEntered; 
+            this.timestayed = timeStayed; 
+        }
+    }
 }
