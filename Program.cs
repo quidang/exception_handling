@@ -3,7 +3,7 @@ using System;
 
 namespace ExceptionTask
 {   
-        class Program 
+    class Program 
     {
         public static void Main(string[] args)
         {
@@ -11,43 +11,29 @@ namespace ExceptionTask
             string roomNumber = Console.ReadLine(); 
             Console.WriteLine("Please enter fullName");
             string fullName = Console.ReadLine(); 
-            Console.WriteLine("Enter Date Entered in Room. In DD/MM/YY HH:MM");
-            
-            // DateTime dateEntered; 
+            Console.WriteLine("Enter Date Entered in Room.");
+            string dateTime = Console.ReadLine();
 
-            while (true) 
-            {   
-                try 
-                {   
-                    while (roomNumber == "TD224")
-                    {
-                        Console.WriteLine("RoomNumber is correct");
-                    }
-                }
-                catch (System.FormatException)
-                {
-                    System.Console.WriteLine("Please enter the correct Room Number");
-                }
-                break;
-            }
-
-            while (true)
+            try 
             {
-                try 
+                if (roomNumber == "TD224") 
                 {
-                    while (fullName == "John Doe")
-                    {
-                        Console.WriteLine("Fullname is correct");
-                    }
-                            
+                    Console.WriteLine("RoomNumber is correct!");
                 }
-                catch (System.FormatException)
+                else
                 {
-                    System.Console.WriteLine("Please enter the correct fullName entered into the room"); 
+                    throw new roomNumberException("RoomNumber is incorrect! Please enter the correct RoomNumber!");
                 }
-                break;
-            }
 
+                DateTime parsedDate = DateTime.Parse(dateTime); 
+
+                Console.WriteLine(String.Format("The room number is: {0}, and the current date and time is: {1}", roomNumber, dateTime));
+            }
+            catch (Exception ex)
+            {
+                if (ex is roomNumberException || ex is FormatException)
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
